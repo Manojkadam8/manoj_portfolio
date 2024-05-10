@@ -1,13 +1,21 @@
 import { useState } from 'react'
 
 import './App.css'
+import Navbar from './Components/Navbar/Navbar'
+
+import Home from './Components/Pages/Home'
+import About from './Components/Pages/About'
+import Contact from './Components/Pages/Contact'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-      <h1>hi</h1>
+    <Navbar />
+    <Home />
+    <About />
+    <Contact />
     </>
   )
 }
