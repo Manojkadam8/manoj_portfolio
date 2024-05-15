@@ -1,0 +1,65 @@
+.card{
+    width: 21rem;
+    height: 35rem;
+   
+    background-color: #1e1e1e;
+    border-radius: 10px;
+}
+
+
+
+
+.card img{
+    width: 19.5rem;
+    height: 13rem;
+    margin: auto;
+    display: block;
+
+    margin-top: 10px;
+    border-radius: 10px;
+  
+    margin-bottom: 5px;
+
+
+}
+
+.card h1{
+    text-align: center;
+    margin: 9px;
+
+}
+
+.card p{
+    text-align: start;
+   
+    margin: 5px 10px 5px 10px;
+
+}
+
+.card h3{
+    text-align: center;
+    margin: 14px 5px 5px 5px;
+}
+
+.cardbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    margin-top: 20px;
+}
+
+.cardbtn button{
+    width: 6rem;
+    height: 2rem;
+    text-align: center;
+    border-radius: 5px;
+    background: bottom;
+
+}
+.cardbtn button a{
+    font-family: fangsong;
+    font-weight: bolder;
+    font-size: larger;
+    color: aliceblue;
+}

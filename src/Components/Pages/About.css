@@ -1,0 +1,42 @@
+.section2{
+    width: 100%;
+    height: 38rem;
+    display: flex;
+    background-color: #27283d;
+
+}
+.about-left{
+height: 100%;
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.about-left img{
+height: 90%;
+width: 70%;
+}
+.about-right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-right h1{
+   width: 80%;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+.about-right p{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+   
+}
+
