@@ -1,4 +1,61 @@
+.header{
+    height: 6rem;
+    width: 100%;
+    background-color: rgb(64, 66, 67);
+    position: fixed;
+    top: 0;
+}
+
 .nav{
+    height: 6rem;
+    width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.left{
+    display: flex;
+    width: 5rem;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5rem;
+    
+}
+.logo{
+    width: 5rem;
+    height: 5rem;
+}
+
+.logo img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+}
+
+.center{
+    display: flex;
+    width: 40%;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 2rem;
     cursor: pointer;
+
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    position: relative;
+    right: 30px;
 }

@@ -12,4 +12,5 @@ body{
     color: white;
     overflow: hidden;
     overflow-y: scroll;
+    z-index: -1;
 }

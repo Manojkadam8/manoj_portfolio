@@ -1,4 +1,68 @@
-h1{
- height: 20rem;
- width: 100%;
+.section1{
+    display: flex;
+    justify-content: space-between;
+    height: 38rem;
+    width: 100%;
+    margin-top: 7rem;
+    margin-bottom: 1rem;
+}
+.home-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 12px;
+}
+.home-left h2{
+    margin-left: 64px;
+    font-size: 4rem;
+}
+.home-left h3{
+    margin-left: 72px;
+    font-size: 3rem;
+}
+.home-left h5{
+    margin-left: 53px;
+    width: 50%;
+    font-size: 2rem;
+}
+.home-left .btn{
+    width: 50%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.home-left .btn button{
+    width: 50%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+.home-left .btn button a{
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-left .btn button a img{
+    width: 29px;
+    height: 29px;
+    margin-left: 16px;
+}
+.home-right{
+    height: 100%;
+    width: 50%;
+}
+.home-right img{
+    height: 100%;
+    width: 100%;
 }

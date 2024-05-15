@@ -6,6 +6,8 @@ import Navbar from './Components/Navbar/Navbar'
 import Home from './Components/Pages/Home'
 import About from './Components/Pages/About'
 import Contact from './Components/Pages/Contact'
+import Portfolio from './Components/Pages/Portfolio'
+import Skills from './Components/Pages/Skills'
 
 function App() {
 
@@ -15,6 +17,8 @@ function App() {
     <Navbar />
     <Home />
     <About />
+    <Skills />
+    <Portfolio />
     <Contact />
     </>
   )
